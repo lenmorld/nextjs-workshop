@@ -12,7 +12,7 @@ export default function Home() {
           Welcome to my blog
         </h1>
         <p className={styles.description}>
-          This is my blog. Please read my stuff.
+          This is my personal site and blog. Please read my stuff.
         </p>
     </Layout>
   )
