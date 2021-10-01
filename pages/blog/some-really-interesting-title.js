@@ -25,12 +25,12 @@ export default function PostOne() {
           </li>
         </ul>
         <p>
-            Oh nice, you're actually reading this. It's randomly generated sentences, by the way. That's around a minute of your life you won't get back, but at least 
+            Oh nice, you&apos;re actually reading this. It&apos;s randomly generated sentences, by the way. That&apos;s around a minute of your life you won&apos;t get back, but at least 
             you learned some corporate tech buzz words lol.
         </p>
         <p>
         Proactively envisioned multimedia based expertise and <strong>cross-media</strong> growth strategies. 
-        Seamlessly visualize quality "intellectual" capital without superior collaboration and <em>idea-sharing</em>. 
+        Seamlessly visualize quality &quot;intellectual&quot; capital without superior collaboration and <em>idea-sharing</em>. 
         Holistically pontificate installed base portals after maintainable products.
         </p>
       </div>
