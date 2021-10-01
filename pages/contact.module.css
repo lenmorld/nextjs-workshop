@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form {
+    margin-left: 30px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 350px;
+}
+
+.form div {
+    margin: 5px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    font-size: inherit;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-family: inherit;
+}
+
+.form div input {
+
+}
+
+.form button {
+    font-size: inherit;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.form textarea {
+    min-height: 100px;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+}
+
+/*****/
+.list {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin-top: 20px;
+}
+
+.list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.list li span {
+    margin-left: 10px;
+}
