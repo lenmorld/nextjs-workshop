@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import Layout from '../../components/layout'
 
 import styles from './blog.module.css'
@@ -13,12 +15,12 @@ export default function Blog() {
                 </p>
                 <ul className={styles.list}>
                     <li>
-                        <a href="/blog/some-really-interesting-title">Some really interesting title</a>
+                        <Link><a href="/blog/some-really-interesting-title">Some really interesting title</a></Link>
                         <br />
                         <small>September 29, 2021</small>
                     </li>
                     <li>
-                        <a href="/blog/you-want-to-read-this-one">You want to read this one</a>
+                        <Link><a href="/blog/you-want-to-read-this-one">You want to read this one</a></Link>
                         <br />
                         <small>September 27, 2021</small>
                     </li>
