@@ -4,8 +4,8 @@ export default function PostTwo() {
     return (
         <Layout>
             <div>
-                <h1>You want to read this one</h1>
-                <div>September 27, 2021</div>
+                <h1>Really want read this one again</h1>
+                <div>September 26, 2021</div>
 
                 <br />
                 <hr />

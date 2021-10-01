@@ -6,7 +6,7 @@ export default function PostOne() {
     <Layout>
       <div>
         <h1>Some really interesting title</h1>
-        <div>September 30, 2021</div>
+        <div>September 29, 2021</div>
         <br />
         <p>
         Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. 
