@@ -1,5 +1,12 @@
+import Nav from '../components/nav'
+
 export default function About() {
     return (
-        <h1>About me</h1>
+        <div>
+            <header>
+                <Nav />
+            </header>
+            <h1>About me</h1>
+        </div>
     )
 }
