@@ -1,5 +1,9 @@
+import Layout from '../components/layout'
+
 export default function Projects() {
     return (
-        <h1>Projects</h1>
+        <Layout>
+            <h1>Projects</h1>
+        </Layout>
     )
 }
