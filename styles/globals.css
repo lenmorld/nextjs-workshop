@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/** Header **/
+header {
+  margin: 1.5rem 0;
+}
+
+/** Nav **/
+nav ul {
+  list-style-type: none;
+
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 24px;
+  cursor: pointer;
+}
