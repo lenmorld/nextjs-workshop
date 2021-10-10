@@ -22,7 +22,7 @@ export default function Post2() {
                 <p>Credibly innovate granular internal or &quot;organic&quot; sources whereas high standards in <strong>web-readiness</strong>. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas with optimal networks.</p>
                 <p>Distinctively exploit optimal alignments for intuitive <strong>bandwidth</strong>. Quickly coordinate e-business applications through revolutionary catalysts for change. Seamlessly underwhelm optimal testing procedures whereas bricks-and-clicks processes.</p>
                 <p>
-                Quickly aggregate B2B users and worldwide potentialities. Progressively plagiarize resource-leveling e-commerce through resource-leveling core competencies. Dramatically mesh <strong>low-risk high-yield</strong> alignments before transparent e-tailers.
+                    Quickly aggregate B2B users and worldwide potentialities. Progressively plagiarize resource-leveling e-commerce through resource-leveling core competencies. Dramatically mesh <strong>low-risk high-yield</strong> alignments before transparent e-tailers.
                 </p>
                 <ul>
                     <li>Appropriately empower dynamic leadership skills after business portals.</li>
@@ -31,7 +31,7 @@ export default function Post2() {
                     <li>Holistically foster superior methodologies without market-driven best practices.</li>
                 </ul>
                 <p>
-                    Oh nice, you&apos;re actually reading this. It&apos;s randomly generated sentences, by the way. That&apos;s around five minutes of your life you won&apos;t get back, but at least 
+                    Oh nice, you&apos;re actually reading this. It&apos;s randomly generated sentences, by the way. That&apos;s around five minutes of your life you won&apos;t get back, but at least
                     you learned some corporate tech buzz words lol.
                 </p>
                 <p>
