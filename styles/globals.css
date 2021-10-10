@@ -29,7 +29,7 @@ header {
 
 /** Main **/
 main {
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
 }
 
 /** Nav **/
@@ -37,6 +37,10 @@ nav ul {
   list-style-type: none;
 
   display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
