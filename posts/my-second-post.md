@@ -1,7 +1,8 @@
-Really want read this one again
-===============================
 
-October 2, 2021
+---
+title: 'Really want read this one again'
+date: '2021-10-02'
+---
 
 
 Synergistically evolve **2.0 technologies** rather than just in time initiatives. Quickly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured products and enabled data.
