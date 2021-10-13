@@ -1,4 +1,3 @@
-
 ---
 title: 'My second post'
 date: '2021-10-02'
