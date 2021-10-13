@@ -4,7 +4,11 @@ import Layout from '../../components/layout'
 
 import styles from './blog.module.css'
 
-export default function Blog() {
+import { getPosts } from '../../lib/posts'
+
+export default function Blog({ postsData }) {
+    console.log("postsData: ", postsData)
+
     return (
         <Layout>
             <h1>My blog posts</h1>
@@ -23,3 +27,14 @@ export default function Blog() {
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const postsData = getPosts()
+  
+    // return props passed to component
+    return {
+      props: {
+        postsData
+      }
+    }
+  }
