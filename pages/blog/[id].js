@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import Layout from '../../components/layout'
 
 import { getPostIds, getPostDataById } from '../../lib/posts'
@@ -5,6 +7,10 @@ import { getPostIds, getPostDataById } from '../../lib/posts'
 export default function BlogPost({ postData }) {
     return (
         <Layout>
+            <Head>
+                <title>{postData.title}</title>
+            </Head>
+
             {postData.title}
             <br />
             {postData.date}
