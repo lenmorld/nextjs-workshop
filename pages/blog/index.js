@@ -13,16 +13,15 @@ export default function Blog({ postsData }) {
         <Layout>
             <h1>My blog posts</h1>
             <ul className={styles.postList}>
-                <li>
-                    <Link href="/blog/my-first-post"><a>My first post</a></Link>
-                    <br />
-                    <small>October 1, 2021</small>
-                </li>
-                <li>
-                    <Link href="/blog/my-second-post"><a>My second post</a></Link>
-                    <br />
-                    <small>October 2, 2021</small>
-                </li>
+                {
+                    postsData.map(post => (
+                        <li key={post.id}>
+                            <Link href="/blog/my-first-post"><a>{post.title}</a></Link>
+                            <br />
+                            <small>{post.date}</small>
+                        </li>
+                    ))
+                }
             </ul>
         </Layout>
     )
