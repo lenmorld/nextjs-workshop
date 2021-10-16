@@ -5,6 +5,7 @@ import Layout from '../../components/layout'
 import styles from './blog.module.css'
 
 import { getPosts } from '../../lib/posts'
+import { formatDateFromISOString } from '../../utils/dates'
 
 export default function Blog({ postsData }) {
     console.log("postsData: ", postsData)
@@ -18,7 +19,7 @@ export default function Blog({ postsData }) {
                         <li key={post.id}>
                             <Link href="/blog/my-first-post"><a>{post.title}</a></Link>
                             <br />
-                            <small>{post.date}</small>
+                            <small>{formatDateFromISOString(post.date)}</small>
                         </li>
                     ))
                 }

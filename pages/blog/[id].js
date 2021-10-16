@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 
 import { getPostIds, getPostDataById } from '../../lib/posts'
+import { formatDateFromISOString } from '../../utils/dates'
 
 export default function BlogPost({ postData }) {
     return (
@@ -13,7 +14,7 @@ export default function BlogPost({ postData }) {
 
             {postData.title}
             <br />
-            {postData.date}
+            {formatDateFromISOString(postData.date)}
             <br />
             <div dangerouslySetInnerHTML={{ __html: postData.content }} />
         </Layout>
