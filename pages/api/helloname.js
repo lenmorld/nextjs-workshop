@@ -17,4 +17,3 @@ export default function handler(req, res) {
 
     res.status(200).json({ message: `Hello ${name}`, query: req.query })
   }
-  
