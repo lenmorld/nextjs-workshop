@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Layout from '../components/layout'
 
@@ -7,6 +7,39 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import styles from './contact.module.css'
 
 export default function Contact() {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleChange = (e) => {
+        switch(e.target.name) {
+            case 'name':
+                setName(e.target.value)
+                break
+            case 'email':
+                setEmail(e.target.value)
+                break
+            case 'message':
+                setMessage(e.target.value)
+                break
+        }
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        alert(`Nice try! We'll discuss how to have a backend API route 
+in the workshop so we can do something with the  data you submitted:
+- Name: ${name}
+- Email: ${email}
+- Message: ${message}
+`)
+
+        setName('')
+        setEmail('')
+        setMessage('')
+    }
+
     return (
         <Layout>
             <h1>Contact</h1>
@@ -27,15 +60,15 @@ export default function Contact() {
                     </li>
                 </ul>
 
-                <form className={styles.form}>
+                <form className={styles.form} onSubmit={handleSubmit}>
                     <div>
-                        <input type="text" name="name" placeholder="Name" />
+                        <input type="text" name="name" placeholder="Name" value={name} onChange={handleChange} />
                     </div>
                     <div>
-                        <input type="text" name="email" placeholder="Email" />
+                        <input type="text" name="email" placeholder="Email" value={email} onChange={handleChange} />
                     </div>
                     <div>
-                        <textarea placeholder="Message" name="message" />
+                        <textarea placeholder="Message" name="message" value={message} onChange={handleChange} />
                     </div>
                     <div>
                         <button type="submit">
