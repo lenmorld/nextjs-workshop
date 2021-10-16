@@ -7,19 +7,23 @@ import { formatDateFromISOString } from '../../utils/dates'
 
 export default function BlogPost({ postData }) {
     return (
-        <Layout>
-            <Head>
-                <title>{postData.title}</title>
-            </Head>
-
-            {postData.title}
-            <br />
-            {formatDateFromISOString(postData.date)}
-            <br />
-            <div dangerouslySetInnerHTML={{ __html: postData.content }} />
-        </Layout>
-    )
-}
+      <Layout>
+        <div>
+          <Head>
+            <title>{postData.title}</title>
+          </Head>
+  
+          <h1>{postData.title}</h1>
+          <div>
+            <small>{formatDateFromISOString(postData.date)}</small>
+          </div>
+          <br />
+          <div dangerouslySetInnerHTML={{ __html: postData.content }} />
+        </div>
+      </Layout>
+    );
+  }
+  
 
 
 // returns all the possible 'id's for [id].js

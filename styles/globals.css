@@ -47,3 +47,12 @@ nav ul li {
   padding: 0 24px;
   cursor: pointer;
 }
+
+small {
+  color:#767676;
+}
+
+h1 {
+  font-weight: 800;
+  line-height: 1.3;
+}
