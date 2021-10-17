@@ -11,9 +11,9 @@ response:
 */
 
 export default function handler(req, res) {
-    const name = req.query.name
+  const name = req.query.name;
 
-    console.log("query: ", req.query)
+  console.log("query: ", req.query);
 
-    res.status(200).json({ message: `Hello ${name}`, query: req.query })
-  }
+  res.status(200).json({ message: `Hello ${name}`, query: req.query });
+}
