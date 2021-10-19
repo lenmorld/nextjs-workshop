@@ -1,14 +1,18 @@
 import Layout from '../components/layout'
+import Image from 'next/image'
 
 export default function About() {
     return (
         <Layout>
-            <img src="profile.jpg" style={{
-                width: '150px',
-                height: '150px',
-                objectFit: 'cover',
-                borderRadius: '50%'
-            }} />
+            <div style={{ position: 'relative', width: '150px', height: '150px', borderRadius: '50%', overflow: 'hidden'}}>
+                <Image
+                    src="/profile.jpg" // Route of the image file
+                    layout={'fill'}
+                    alt="Lenny"
+                    objectFit={'cover'}
+                />
+            </div>
+
             <h1>About me</h1>
 
             <p>
