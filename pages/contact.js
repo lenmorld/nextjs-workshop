@@ -25,20 +25,26 @@ export default function Contact() {
         }
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+    
+        await fetch("/api/contactus", {
+            method: "POST",
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                message: message,
+            }),
+        });
+    
+        alert("Your message has been submitted. Thank you!");
 
-        alert(`Nice try! We'll discuss how to have a backend API route 
-in the workshop so we can do something with the  data you submitted:
-- Name: ${name}
-- Email: ${email}
-- Message: ${message}
-`)
+        // reset fields for a new submission
+        setName("");
+        setEmail("");
+        setMessage("");
+    };
 
-        setName('')
-        setEmail('')
-        setMessage('')
-    }
 
     return (
         <Layout>
