@@ -16,7 +16,7 @@ export default function Blog({ postsData }) {
                 {
                     postsData.map(post => (
                         <li key={post.id}>
-                            <Link href="/blog/my-first-post"><a>{post.title}</a></Link>
+                            <Link href={`/blog/${post.id}`}><a>{post.title}</a></Link>
                             <br />
                             <small>{post.date}</small>
                         </li>
