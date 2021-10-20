@@ -8,7 +8,7 @@ import { formatDateFromISOString } from '../../utils/dates'
 export default function BlogPost({ postData }) {
     return (
       <Layout>
-        <div>
+        <div className="blog">
           <Head>
             <title>{postData.title}</title>
           </Head>

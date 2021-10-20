@@ -6,6 +6,8 @@ date: '2021-10-02'
 
 Synergistically evolve **2.0 technologies** rather than just in time initiatives. Quickly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured products and enabled data.
 
+[![React in 100 seconds](https://res.cloudinary.com/marcomontalbano/image/upload/v1632607714/video_to_markdown/images/youtube--Tn6-PIqc4UM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Tn6-PIqc4UM "React in 100 seconds")
+
 Uniquely matrix economically sound value through cooperative technology:
 
 *   Competently parallel task

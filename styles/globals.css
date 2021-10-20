@@ -61,3 +61,11 @@ h1 {
 button {
   cursor: pointer;
 }
+
+
+/* blog content */
+.blog img {
+  max-width: 900px;
+  height: auto;
+  object-fit: cover;
+}

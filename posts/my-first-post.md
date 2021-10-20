@@ -3,11 +3,14 @@ title: 'My first post'
 date: '2021-10-01'
 ---
 
+![Computer photo](https://source.unsplash.com/featured/?computer)
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional **clickthroughs from DevOps**. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 
 *   User generated content in real-time will have multiple **touchpoints** for offshoring. Keeping your **eye on the ball** while performing a deep dive on the _start-up_ mentality to derive convergence on cross-platform integration.
 *   Dynamically procrastinate **B2C** users after installed base benefits. Collaboratively administrate empowered markets via **plug-and-play** networks.
+
+![Alt Text](https://media.giphy.com/media/heIX5HfWgEYlW/giphy.gif)
 
 Oh nice, you're actually reading this. It's randomly generated sentences, by the way. That's around a minute of your life you won't get back, but at least you learned some corporate tech buzz words lol.
 
