@@ -17,7 +17,7 @@ response:
 */
 
 export default function handler(req, res) {
-    console.log("body: ", req.body);
+    console.log("Received ContactUs payload", req.body);
 
     const { name, email, message } = JSON.parse(req.body);
 
