@@ -28,7 +28,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        await fetch("/api/contactus", {
+        const rawResponse = await fetch("/api/contactus", {
             method: "POST",
             body: JSON.stringify({
                 name: name,
@@ -36,6 +36,10 @@ export default function Contact() {
                 message: message,
             }),
         });
+
+        const response = await rawResponse.json()
+
+        console.log("server response: ", response)
     
         alert("Your message has been submitted. Thank you!");
 
