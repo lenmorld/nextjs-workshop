@@ -15,7 +15,7 @@ response:
 */
 
 export default function handler(req, res) {
-    console.log("body: ", req.body);
+    console.log("Received ContactUs payload", req.body);
 
     res.status(200).json({ data: "Contact Us message received", body: req.body });
 }
